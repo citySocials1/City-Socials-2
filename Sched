@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="City Socials VA - Hostess">
+    <title>City Socials VA - Hostess</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #2C3E50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            text-align: center;
+            background-color: #34495E;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        section h2 {
+            font-size: 2rem;
+            color: #2C3E50;
+        }
+        .about, .calendar, .signup {
+            margin-bottom: 40px;
+        }
+        .calendar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .calendar li {
+            background-color: #ecf0f1;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #2C3E50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .button {
+            background-color: #1abc9c;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #16a085;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>City Socials VA - Hostess</h1>
+    <p>Bringing people together with style and elegance</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#calendar">Calendar of Events</a>
+    <a href="#signup">Sign Up</a>
+</nav>
+
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hi! I’m City Socials VA, your go-to hostess for organizing and hosting memorable social events in Virginia. With a passion for creating seamless, enjoyable experiences, I specialize in bringing people together for special occasions, networking events, and social gatherings. Whether it’s an intimate dinner party or a large-scale event, I make sure every detail is handled with care and professionalism.</p>
+</section>
+
+<section id="calendar" class="calendar">
+    <h2>Calendar of Events</h2>
+    <ul>
+        <li><strong>December 5th, 2024</strong>: Holiday Mixer - A festive night of networking and celebration. <strong>Location:</strong> The Grand Ballroom, 7 PM</li>
+        <li><strong>December 12th, 2024</strong>: New Year’s Eve Countdown Party - Celebrate the year’s end with style! <strong>Location:</strong> Downtown Event Space, 8 PM</li>
+        <li><strong>January 20th, 2025</strong>: Winter Wonderland Gala - A formal gathering to kick off the year. <strong>Location:</strong> The Crystal Palace, 6 PM</li>
+    </ul>
+</section>
+
+<section id="signup" class="signup">
+    <h2>Sign Up for Upcoming Events</h2>
+    <p>Don’t miss out on our exclusive events! Sign up to be the first to know about upcoming gatherings, RSVP for events, and get special invitations.</p>
+    <a href="https://example.com/signup" class="button">Sign Up Now</a>
+</section>
+
+<footer>
+    <p>&copy; 2024 City Socials VA. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
